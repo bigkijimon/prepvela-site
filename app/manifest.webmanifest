@@ -1,0 +1,16 @@
+{
+  "name": "Prepvela",
+  "short_name": "Prepvela",
+  "description": "上級者（B2〜C1）のための独立した英語練習アプリ。",
+  "lang": "ja",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "theme_color": "#b45309",
+  "background_color": "#f7f4ee",
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}

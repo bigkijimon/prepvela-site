@@ -1,5 +1,5 @@
 # robots.txt for the public pages of Prepvela.
-# http://127.0.0.1:62489/ is a placeholder: tools/make_site.sh replaces it with
+# https://bigkijimon.github.io/prepvela-site/ is a placeholder: tools/make_site.sh replaces it with
 # SITE_ORIGIN when the owner sets one, and prints UNKNOWN when none is set.
 
 User-agent: *
@@ -9,4 +9,4 @@ Allow: /
 # there is nothing in it for a search result to point at.
 Disallow: /app/
 
-Sitemap: http://127.0.0.1:62489/sitemap.xml
+Sitemap: https://bigkijimon.github.io/prepvela-site/sitemap.xml

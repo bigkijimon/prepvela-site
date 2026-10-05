@@ -2,18 +2,18 @@
 <!-- The public pages of Prepvela, and nothing else: /app/ is the practice app
      itself, reached by fragment URLs, and robots.txt asks for it not to be
      indexed.
-     http://127.0.0.1:62489/ is a placeholder: tools/make_site.sh replaces it
+     https://bigkijimon.github.io/prepvela-site/ is a placeholder: tools/make_site.sh replaces it
      with SITE_ORIGIN when the owner sets one, and prints UNKNOWN when none is
      set. No lastmod is written, because this repository cannot know the day a
      page last changed for certain and a stale date is worse than none. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://127.0.0.1:62489/</loc>
+    <loc>https://bigkijimon.github.io/prepvela-site/</loc>
   </url>
   <url>
-    <loc>http://127.0.0.1:62489/start/</loc>
+    <loc>https://bigkijimon.github.io/prepvela-site/start/</loc>
   </url>
   <url>
-    <loc>http://127.0.0.1:62489/privacy/</loc>
+    <loc>https://bigkijimon.github.io/prepvela-site/privacy/</loc>
   </url>
 </urlset>

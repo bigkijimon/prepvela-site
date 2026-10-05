@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- The app's own policy, verbatim and in the same place: this page loads one
+     stylesheet of its own and nothing else. Keep the tag ahead of the first
+     <link>, or the sheet below is not covered. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>Prepvela をこのブラウザで開く</title>
+<meta name="description" content="このページのボタンで、Prepvela の練習アプリが同じブラウザで開きます。アカウント登録も通信も要りません。">
+<link rel="canonical" href="http://127.0.0.1:62410/start/">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="../site.css">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Prepvela">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:title" content="Prepvela をこのブラウザで開く">
+<meta property="og:description" content="このページのボタンで、Prepvela の練習アプリが同じブラウザで開きます。">
+<meta property="og:url" content="http://127.0.0.1:62410/start/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Prepvela をこのブラウザで開く">
+<meta name="twitter:description" content="このページのボタンで、Prepvela の練習アプリが同じブラウザで開きます。">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "http://127.0.0.1:62410/#website",
+      "url": "http://127.0.0.1:62410/",
+      "name": "Prepvela",
+      "inLanguage": "ja",
+      "description": "B2〜C1 のための独立した英語練習アプリ。読む・聞く・語彙・書く・話す。"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "http://127.0.0.1:62410/app/#application",
+      "name": "Prepvela",
+      "url": "http://127.0.0.1:62410/app/",
+      "inLanguage": "ja",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "Web browser",
+      "description": "リーディング・リスニング・語彙・ライティング・スピーキングの練習。進捗はこの端末のブラウザ内ストレージにだけ保存される。",
+      "isAccessibleForFree": true,
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "JPY"
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">本文へ移動</a>
+
+<header class="masthead">
+  <div class="shell masthead-inner">
+    <span class="brand">
+      <span class="brand-mark" aria-hidden="true">P</span>
+      <span class="brand-name">Prepvela</span>
+    </span>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+  <div class="shell">
+    <!-- This page exists so that the click from the landing page has a page of
+         its own to be counted as. It has one job: open the app, then stay out of
+         the way. -->
+    <section id="start" aria-labelledby="start-h">
+      <h1 id="start-h">このブラウザで、そのまま開けます。</h1>
+      <p class="lede">下のボタンで、Prepvela の練習アプリが同じブラウザで開きます。</p>
+      <p class="cta-row"><a class="btn primary" href="../app/index.html">練習アプリを開く</a></p>
+      <p class="note">アカウント登録も、常時ネットも要りません。ブラウザの戻るボタンでこのページに戻れます。</p>
+      <p class="note"><a href="../index.html">Prepvela について戻る</a></p>
+    </section>
+  </div>
+</main>
+
+<footer class="foot">
+  <div class="shell foot-inner">
+    <p class="note">Prepvela は独立した英語学習アプリです。いかなる試験団体とも提携・承認関係はありません。</p>
+    <p class="note">スコアは本アプリ独自の練習用の目安です。実際の試験結果を予測・保証するものではありません。</p>
+  </div>
+</footer>
+</body>
+</html>

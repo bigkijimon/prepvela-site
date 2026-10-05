@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- The page loads nothing but its own files: no network, no third-party code.
+     'unsafe-inline' is here only for the views' style="" attributes; every
+     script is a file under js/, so script-src needs nothing wider. Keep this
+     tag ahead of the first <link>: a resource loaded before it is not covered. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<!-- The home-screen files, and only after the policy above: a link the browser
+     reads before that tag is not covered by it. The two colours are the ones
+     css/styles.css already declares (--accent, --bg); the icons are rendered
+     from tools/app/Icon.swift. Nothing here is fetched from anywhere else. -->
+<meta name="theme-color" content="#b45309">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+<title>Prepvela — 上級者向け英語練習</title>
+<meta name="description" content="上級者（B2〜C1）のための独立した英語練習アプリ。リーディング・リスニング・ライティング・スピーキング・単語カードを、この端末の中だけで。">
+<meta id="build-stamp" content="">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="#/dashboard">
+      <span class="brand-mark">P</span>
+      <span class="brand-text">Prepvela</span>
+    </a>
+    <nav class="nav" id="main-nav" aria-label="メインメニュー">
+      <a href="#/dashboard" data-route="dashboard">ホーム</a>
+      <a href="#/mock" data-route="mock">模擬テスト</a>
+      <a href="#/cards" data-route="cards">単語カード</a>
+      <a href="#/notebook" data-route="notebook">復習ノート</a>
+      <a href="#/writing" data-route="writing">ライティング</a>
+      <a href="#/speaking" data-route="speaking">スピーキング</a>
+      <a href="#/settings" data-route="settings">設定</a>
+    </nav>
+    <div class="topbar-count" id="topbar-countdown" title="目標日まで"></div>
+    <!-- The nav above is a row of links while all seven fit beside the brand and
+         the countdown, and this button opens them as a menu below the width
+         css/styles.css measures — NavMenu drives it. Last in the DOM so the
+         reading order matches the bar at both layouts. aria-expanded is written by
+         js/main.js, which removes it again in the row layout: there this button is
+         display:none, and a state nothing can change is one a screen reader would
+         read out. -->
+    <button class="nav-toggle" id="nav-toggle" type="button"
+            aria-controls="main-nav" aria-expanded="false">
+      <span class="nav-toggle-bars" aria-hidden="true"></span>メニュー
+    </button>
+  </div>
+</header>
+
+<main class="main" id="view" tabindex="-1"></main>
+
+<footer class="footer">
+  <p>Prepvela は独立した英語学習アプリです。いかなる試験団体とも提携・承認関係はありません。
+  学習データはこの端末のブラウザ内ストレージにのみ保存され、外部に送信されることはありません。</p>
+</footer>
+
+<!-- js/diag.js is first on purpose: the diagnostics log has to be listening
+     before anything else can throw. It writes to its own localStorage key on
+     this device and sends nothing anywhere. -->
+<script src="js/diag.js"></script>
+<script src="data/bank.js"></script>
+<script src="js/store.js"></script>
+<script src="js/dashboard.js"></script>
+<script src="js/mock.js"></script>
+<script src="js/cards.js"></script>
+<script src="js/writing.js"></script>
+<script src="js/speaking.js"></script>
+<script src="js/notebook.js"></script>
+<script src="js/settings.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

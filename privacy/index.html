@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- The app's own policy, verbatim and in the same place: this page loads one
+     stylesheet of its own and nothing else. Keep the tag ahead of the first
+     <link>, or the sheet below is not covered. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>プライバシーについて — Prepvela</title>
+<meta name="description" content="Prepvela は何も外へ送りません。学習の進捗はこの端末のブラウザ内ストレージにだけ保存されます。このページがホストから配信される場合のサーバーログについても記載しています。">
+<link rel="canonical" href="http://127.0.0.1:62410/privacy/">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="../site.css">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Prepvela">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:title" content="プライバシーについて — Prepvela">
+<meta property="og:description" content="Prepvela は何も外へ送りません。学習の進捗はこの端末のブラウザ内ストレージにだけ保存されます。">
+<meta property="og:url" content="http://127.0.0.1:62410/privacy/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="プライバシーについて — Prepvela">
+<meta name="twitter:description" content="Prepvela は何も外へ送りません。学習の進捗はこの端末のブラウザ内ストレージにだけ保存されます。">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "http://127.0.0.1:62410/#website",
+      "url": "http://127.0.0.1:62410/",
+      "name": "Prepvela",
+      "inLanguage": "ja",
+      "description": "B2〜C1 のための独立した英語練習アプリ。読む・聞く・語彙・書く・話す。"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "http://127.0.0.1:62410/app/#application",
+      "name": "Prepvela",
+      "url": "http://127.0.0.1:62410/app/",
+      "inLanguage": "ja",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "Web browser",
+      "description": "リーディング・リスニング・語彙・ライティング・スピーキングの練習。進捗はこの端末のブラウザ内ストレージにだけ保存される。",
+      "isAccessibleForFree": true,
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "JPY"
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">本文へ移動</a>
+
+<header class="masthead">
+  <div class="shell masthead-inner">
+    <span class="brand">
+      <span class="brand-mark" aria-hidden="true">P</span>
+      <span class="brand-name">Prepvela</span>
+    </span>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+  <div class="shell">
+
+    <h1 id="privacy-h">プライバシーについて</h1>
+
+    <section id="delivery" aria-labelledby="delivery-h">
+      <h2 id="delivery-h">このページの配信について</h2>
+      <p class="plain">このページもアプリも、静的ファイルだけでできています。ページは Content-Security-Policy で <code>connect-src 'none'</code> を宣言しており、ファイルを読み込む以外の通信を書きません。</p>
+      <p class="plain">ただしファイルはホストから配信されます。そのためホストには通常のサーバーログ（どのファイルがいつ求められたか）が残り、ログの置き場所と保存期間はホスト側の設定に従います。</p>
+    </section>
+
+    <section id="app-privacy" aria-labelledby="app-privacy-h">
+      <h2 id="app-privacy-h">アプリについて</h2>
+      <p class="plain">Prepvela は、どこへも何も送りません。サーバーもアカウントも持ちません。</p>
+
+      <h3 class="doc-h">送信するもの: なし</h3>
+      <ul class="doc">
+        <li>アプリが外部に送る通信はありません。問題データも音声もアプリの中にあり、起動中にネットワークへ出る通信を書きません。</li>
+        <li>閲覧履歴の送信、広告、アクセス解析（analytics）、追跡（tracking・cookie）、クラッシュレポート、診断情報の送信は、どれも行いません。広告用の識別子を作ったり、閲覧を集計したりしないためです。</li>
+      </ul>
+
+      <h3 class="doc-h">保存するもの: この端末のブラウザのストレージだけ</h3>
+      <ul class="doc">
+        <li>学習の進捗（記録・正答率・復習待ち）、復習ノート、ライティングの草稿、スピーキングの練習記録、目標日、各種設定は、この端末のブラウザの localStorage（キー <code>prepvela.v1</code>）にのみ保存されます。ほかの場所には複製されません。</li>
+        <li>氏名・メールアドレス・電話番号など、人を特定するための情報は入力しません。従って、送信する情報もありません。</li>
+        <li>保存データの削除は 設定 → 全データを初期化 で行えます。これはこの端末の学習データだけを消します。バックアップファイルは、自分で保存先を確認して消してください。</li>
+      </ul>
+
+      <h3 class="doc-h">バックアップファイル</h3>
+      <ul class="doc">
+        <li>ファイルが書かれるのは 設定 → 学習データ → 「バックアップを書き出す」を押したときだけです。保存先にどこを指定したかは、そのとき自分で選んだ人だけが知っています。アプリはその場所を確かめることも、記録することもしません。</li>
+        <li>書き出した JSON ファイルがどこかへ送られることはありません。</li>
+        <li>読み込みは、あなたが選んだファイルだけが対象です。アプリが自動でファイルを探しに行くことはありません。</li>
+      </ul>
+
+      <h3 class="doc-h">日本語の読み上げ</h3>
+      <p class="plain">日本語を音にする場合は、この端末が内蔵している音声合成（OS が持つ声）を使います。読み上げるテキストも、その結果できる音も端末の外には出ません。英語の音は同梱ファイルを再生するだけなので、外部の音声合成は何も使いません。</p>
+
+      <h3 class="doc-h">英語の音声</h3>
+      <p class="plain"><code>assets/audio/</code> の <code>.m4a</code> はアプリに同梱されており、起動時にダウンロードしません。単語カードのリピート再生も、このファイル、または端末の音声合成を鳴らすだけです。</p>
+
+      <p class="note"><a href="../index.html">Prepvela の説明へ戻る</a></p>
+    </section>
+
+  </div>
+</main>
+
+<footer class="foot">
+  <div class="shell foot-inner">
+    <p class="note">Prepvela は独立した英語学習アプリです。いかなる試験団体とも提携・承認関係はありません。</p>
+  </div>
+</footer>
+</body>
+</html>

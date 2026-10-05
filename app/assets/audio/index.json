@@ -1,0 +1,1285 @@
+{
+ "listening": {
+  "S3-1-1": "assets/audio/listening/S3-1-1.m4a",
+  "S3-1-2": "assets/audio/listening/S3-1-2.m4a",
+  "S3-2-11": "assets/audio/listening/S3-2-11.m4a",
+  "S3-3-21": "assets/audio/listening/S3-3-21.m4a",
+  "S1-1-1": "assets/audio/listening/S1-1-1.m4a",
+  "S1-1-2": "assets/audio/listening/S1-1-2.m4a",
+  "S1-1-3": "assets/audio/listening/S1-1-3.m4a",
+  "S1-1-4": "assets/audio/listening/S1-1-4.m4a",
+  "S1-1-5": "assets/audio/listening/S1-1-5.m4a",
+  "S1-1-6": "assets/audio/listening/S1-1-6.m4a",
+  "S1-1-7": "assets/audio/listening/S1-1-7.m4a",
+  "S1-1-8": "assets/audio/listening/S1-1-8.m4a",
+  "S1-1-9": "assets/audio/listening/S1-1-9.m4a",
+  "S1-1-10": "assets/audio/listening/S1-1-10.m4a",
+  "S1-2-11": "assets/audio/listening/S1-2-11.m4a",
+  "S1-2-12": "assets/audio/listening/S1-2-12.m4a",
+  "S1-2-13": "assets/audio/listening/S1-2-13.m4a",
+  "S1-2-14": "assets/audio/listening/S1-2-14.m4a",
+  "S1-2-15": "assets/audio/listening/S1-2-15.m4a",
+  "S1-2-16": "assets/audio/listening/S1-2-16.m4a",
+  "S1-2-17": "assets/audio/listening/S1-2-17.m4a",
+  "S1-2-18": "assets/audio/listening/S1-2-18.m4a",
+  "S1-2-19": "assets/audio/listening/S1-2-19.m4a",
+  "S1-2-20": "assets/audio/listening/S1-2-20.m4a",
+  "S1-3-21": "assets/audio/listening/S1-3-21.m4a",
+  "S1-3-22": "assets/audio/listening/S1-3-22.m4a",
+  "S1-3-23": "assets/audio/listening/S1-3-23.m4a",
+  "S1-3-24": "assets/audio/listening/S1-3-24.m4a",
+  "S3-1-3": "assets/audio/listening/S3-1-3.m4a",
+  "S3-1-4": "assets/audio/listening/S3-1-4.m4a",
+  "S3-1-5": "assets/audio/listening/S3-1-5.m4a",
+  "S3-1-6": "assets/audio/listening/S3-1-6.m4a",
+  "S3-1-7": "assets/audio/listening/S3-1-7.m4a",
+  "S3-1-8": "assets/audio/listening/S3-1-8.m4a",
+  "S3-1-9": "assets/audio/listening/S3-1-9.m4a",
+  "S3-1-10": "assets/audio/listening/S3-1-10.m4a",
+  "S3-2-12": "assets/audio/listening/S3-2-12.m4a",
+  "S3-2-13": "assets/audio/listening/S3-2-13.m4a",
+  "S3-2-14": "assets/audio/listening/S3-2-14.m4a",
+  "S3-2-15": "assets/audio/listening/S3-2-15.m4a",
+  "S3-2-16": "assets/audio/listening/S3-2-16.m4a",
+  "S3-2-17": "assets/audio/listening/S3-2-17.m4a",
+  "S3-2-18": "assets/audio/listening/S3-2-18.m4a",
+  "S3-2-19": "assets/audio/listening/S3-2-19.m4a",
+  "S3-2-20": "assets/audio/listening/S3-2-20.m4a",
+  "S3-3-22": "assets/audio/listening/S3-3-22.m4a",
+  "S3-3-23": "assets/audio/listening/S3-3-23.m4a",
+  "S3-3-24": "assets/audio/listening/S3-3-24.m4a",
+  "S2-1-1": "assets/audio/listening/S2-1-1.m4a",
+  "S2-1-2": "assets/audio/listening/S2-1-2.m4a",
+  "S2-1-3": "assets/audio/listening/S2-1-3.m4a",
+  "S2-1-4": "assets/audio/listening/S2-1-4.m4a",
+  "S2-1-5": "assets/audio/listening/S2-1-5.m4a",
+  "S2-1-6": "assets/audio/listening/S2-1-6.m4a",
+  "S2-1-7": "assets/audio/listening/S2-1-7.m4a",
+  "S2-1-8": "assets/audio/listening/S2-1-8.m4a",
+  "S2-1-9": "assets/audio/listening/S2-1-9.m4a",
+  "S2-1-10": "assets/audio/listening/S2-1-10.m4a",
+  "S2-2-11": "assets/audio/listening/S2-2-11.m4a",
+  "S2-2-12": "assets/audio/listening/S2-2-12.m4a",
+  "S2-2-13": "assets/audio/listening/S2-2-13.m4a",
+  "S2-2-14": "assets/audio/listening/S2-2-14.m4a",
+  "S2-2-15": "assets/audio/listening/S2-2-15.m4a",
+  "S2-2-16": "assets/audio/listening/S2-2-16.m4a",
+  "S2-2-17": "assets/audio/listening/S2-2-17.m4a",
+  "S2-2-18": "assets/audio/listening/S2-2-18.m4a",
+  "S2-2-19": "assets/audio/listening/S2-2-19.m4a",
+  "S2-2-20": "assets/audio/listening/S2-2-20.m4a",
+  "S2-3-21": "assets/audio/listening/S2-3-21.m4a",
+  "S2-3-22": "assets/audio/listening/S2-3-22.m4a",
+  "S2-3-23": "assets/audio/listening/S2-3-23.m4a",
+  "S2-3-24": "assets/audio/listening/S2-3-24.m4a"
+ },
+ "vocab": {
+  "abate": {
+   "file": "assets/audio/vocab/abate.m4a"
+  },
+  "aberrant": {
+   "file": "assets/audio/vocab/aberrant.m4a"
+  },
+  "abeyance": {
+   "file": "assets/audio/vocab/abeyance.m4a"
+  },
+  "abridge": {
+   "file": "assets/audio/vocab/abridge.m4a"
+  },
+  "abjure": {
+   "file": "assets/audio/vocab/abjure.m4a"
+  },
+  "abrogate": {
+   "file": "assets/audio/vocab/abrogate.m4a"
+  },
+  "absolve": {
+   "file": "assets/audio/vocab/absolve.m4a"
+  },
+  "abstemious": {
+   "file": "assets/audio/vocab/abstemious.m4a"
+  },
+  "acrimonious": {
+   "file": "assets/audio/vocab/acrimonious.m4a"
+  },
+  "acumen": {
+   "file": "assets/audio/vocab/acumen.m4a"
+  },
+  "adamant": {
+   "file": "assets/audio/vocab/adamant.m4a"
+  },
+  "adept": {
+   "file": "assets/audio/vocab/adept.m4a"
+  },
+  "adroit": {
+   "file": "assets/audio/vocab/adroit.m4a"
+  },
+  "adversarial": {
+   "file": "assets/audio/vocab/adversarial.m4a"
+  },
+  "advocate": {
+   "file": "assets/audio/vocab/advocate.m4a"
+  },
+  "aesthetic": {
+   "file": "assets/audio/vocab/aesthetic.m4a"
+  },
+  "affable": {
+   "file": "assets/audio/vocab/affable.m4a"
+  },
+  "aggregate": {
+   "file": "assets/audio/vocab/aggregate.m4a"
+  },
+  "alacrity": {
+   "file": "assets/audio/vocab/alacrity.m4a"
+  },
+  "alleviate": {
+   "file": "assets/audio/vocab/alleviate.m4a"
+  },
+  "allocate": {
+   "file": "assets/audio/vocab/allocate.m4a"
+  },
+  "ambivalent": {
+   "file": "assets/audio/vocab/ambivalent.m4a"
+  },
+  "ameliorate": {
+   "file": "assets/audio/vocab/ameliorate.m4a"
+  },
+  "amenable": {
+   "file": "assets/audio/vocab/amenable.m4a"
+  },
+  "amorphous": {
+   "file": "assets/audio/vocab/amorphous.m4a"
+  },
+  "anachronism": {
+   "file": "assets/audio/vocab/anachronism.m4a"
+  },
+  "analogous": {
+   "file": "assets/audio/vocab/analogous.m4a"
+  },
+  "anomaly": {
+   "file": "assets/audio/vocab/anomaly.m4a"
+  },
+  "antipathy": {
+   "file": "assets/audio/vocab/antipathy.m4a"
+  },
+  "apathy": {
+   "file": "assets/audio/vocab/apathy.m4a"
+  },
+  "apprehensive": {
+   "file": "assets/audio/vocab/apprehensive.m4a"
+  },
+  "arbitrary": {
+   "file": "assets/audio/vocab/arbitrary.m4a"
+  },
+  "articulate": {
+   "file": "assets/audio/vocab/articulate.m4a"
+  },
+  "arguably": {
+   "file": "assets/audio/vocab/arguably.m4a"
+  },
+  "arduous": {
+   "file": "assets/audio/vocab/arduous.m4a"
+  },
+  "assiduously": {
+   "file": "assets/audio/vocab/assiduously.m4a"
+  },
+  "banal": {
+   "file": "assets/audio/vocab/banal.m4a"
+  },
+  "bastion": {
+   "file": "assets/audio/vocab/bastion.m4a"
+  },
+  "behemoth": {
+   "file": "assets/audio/vocab/behemoth.m4a"
+  },
+  "belie": {
+   "file": "assets/audio/vocab/belie.m4a"
+  },
+  "belittle": {
+   "file": "assets/audio/vocab/belittle.m4a"
+  },
+  "benign": {
+   "file": "assets/audio/vocab/benign.m4a"
+  },
+  "benevolent": {
+   "file": "assets/audio/vocab/benevolent.m4a"
+  },
+  "bolster": {
+   "file": "assets/audio/vocab/bolster.m4a"
+  },
+  "brusque": {
+   "file": "assets/audio/vocab/brusque.m4a"
+  },
+  "bureaucracy": {
+   "file": "assets/audio/vocab/bureaucracy.m4a"
+  },
+  "blatantly": {
+   "file": "assets/audio/vocab/blatantly.m4a"
+  },
+  "cacophony": {
+   "file": "assets/audio/vocab/cacophony.m4a"
+  },
+  "cajole": {
+   "file": "assets/audio/vocab/cajole.m4a"
+  },
+  "candor": {
+   "file": "assets/audio/vocab/candor.m4a"
+  },
+  "capricious": {
+   "file": "assets/audio/vocab/capricious.m4a"
+  },
+  "castigate": {
+   "file": "assets/audio/vocab/castigate.m4a"
+  },
+  "catalyst": {
+   "file": "assets/audio/vocab/catalyst.m4a"
+  },
+  "caustic": {
+   "file": "assets/audio/vocab/caustic.m4a"
+  },
+  "censure": {
+   "file": "assets/audio/vocab/censure.m4a"
+  },
+  "circumvent": {
+   "file": "assets/audio/vocab/circumvent.m4a"
+  },
+  "clandestine": {
+   "file": "assets/audio/vocab/clandestine.m4a"
+  },
+  "clemency": {
+   "file": "assets/audio/vocab/clemency.m4a"
+  },
+  "cognizant": {
+   "file": "assets/audio/vocab/cognizant.m4a"
+  },
+  "collude": {
+   "file": "assets/audio/vocab/collude.m4a"
+  },
+  "complacent": {
+   "file": "assets/audio/vocab/complacent.m4a"
+  },
+  "conflagration": {
+   "file": "assets/audio/vocab/conflagration.m4a"
+  },
+  "conducive": {
+   "file": "assets/audio/vocab/conducive.m4a"
+  },
+  "congenial": {
+   "file": "assets/audio/vocab/congenial.m4a"
+  },
+  "conjecture": {
+   "file": "assets/audio/vocab/conjecture.m4a"
+  },
+  "constraint": {
+   "file": "assets/audio/vocab/constraint.m4a"
+  },
+  "contrite": {
+   "file": "assets/audio/vocab/contrite.m4a"
+  },
+  "corroborate": {
+   "file": "assets/audio/vocab/corroborate.m4a"
+  },
+  "cohesive": {
+   "file": "assets/audio/vocab/cohesive.m4a"
+  },
+  "concerted": {
+   "file": "assets/audio/vocab/concerted.m4a"
+  },
+  "conversely": {
+   "file": "assets/audio/vocab/conversely.m4a"
+  },
+  "copious": {
+   "file": "assets/audio/vocab/copious.m4a"
+  },
+  "cosmopolitan": {
+   "file": "assets/audio/vocab/cosmopolitan.m4a"
+  },
+  "credulous": {
+   "file": "assets/audio/vocab/credulous.m4a"
+  },
+  "cursory": {
+   "file": "assets/audio/vocab/cursory.m4a"
+  },
+  "culpable": {
+   "file": "assets/audio/vocab/culpable.m4a"
+  },
+  "cynical": {
+   "file": "assets/audio/vocab/cynical.m4a"
+  },
+  "debacle": {
+   "file": "assets/audio/vocab/debacle.m4a"
+  },
+  "dearth": {
+   "file": "assets/audio/vocab/dearth.m4a"
+  },
+  "daunting": {
+   "file": "assets/audio/vocab/daunting.m4a"
+  },
+  "defer": {
+   "file": "assets/audio/vocab/defer.m4a"
+  },
+  "deleterious": {
+   "file": "assets/audio/vocab/deleterious.m4a"
+  },
+  "demeanor": {
+   "file": "assets/audio/vocab/demeanor.m4a"
+  },
+  "demur": {
+   "file": "assets/audio/vocab/demur.m4a"
+  },
+  "dereliction": {
+   "file": "assets/audio/vocab/dereliction.m4a"
+  },
+  "desiccate": {
+   "file": "assets/audio/vocab/desiccate.m4a"
+  },
+  "desultory": {
+   "file": "assets/audio/vocab/desultory.m4a"
+  },
+  "destitute": {
+   "file": "assets/audio/vocab/destitute.m4a"
+  },
+  "detestable": {
+   "file": "assets/audio/vocab/detestable.m4a"
+  },
+  "dexterity": {
+   "file": "assets/audio/vocab/dexterity.m4a"
+  },
+  "devoid": {
+   "file": "assets/audio/vocab/devoid.m4a"
+  },
+  "didactic": {
+   "file": "assets/audio/vocab/didactic.m4a"
+  },
+  "diffidence": {
+   "file": "assets/audio/vocab/diffidence.m4a"
+  },
+  "dilatory": {
+   "file": "assets/audio/vocab/dilatory.m4a"
+  },
+  "diligent": {
+   "file": "assets/audio/vocab/diligent.m4a"
+  },
+  "discern": {
+   "file": "assets/audio/vocab/discern.m4a"
+  },
+  "disparate": {
+   "file": "assets/audio/vocab/disparate.m4a"
+  },
+  "dissemble": {
+   "file": "assets/audio/vocab/dissemble.m4a"
+  },
+  "dissident": {
+   "file": "assets/audio/vocab/dissident.m4a"
+  },
+  "dogmatic": {
+   "file": "assets/audio/vocab/dogmatic.m4a"
+  },
+  "dour": {
+   "file": "assets/audio/vocab/dour.m4a"
+  },
+  "dubious": {
+   "file": "assets/audio/vocab/dubious.m4a"
+  },
+  "dwindle": {
+   "file": "assets/audio/vocab/dwindle.m4a"
+  },
+  "ebullient": {
+   "file": "assets/audio/vocab/ebullient.m4a"
+  },
+  "eclectic": {
+   "file": "assets/audio/vocab/eclectic.m4a"
+  },
+  "edify": {
+   "file": "assets/audio/vocab/edify.m4a"
+  },
+  "efficacy": {
+   "file": "assets/audio/vocab/efficacy.m4a"
+  },
+  "egregious": {
+   "file": "assets/audio/vocab/egregious.m4a"
+  },
+  "eloquent": {
+   "file": "assets/audio/vocab/eloquent.m4a"
+  },
+  "elucidate": {
+   "file": "assets/audio/vocab/elucidate.m4a"
+  },
+  "embellish": {
+   "file": "assets/audio/vocab/embellish.m4a"
+  },
+  "empirical": {
+   "file": "assets/audio/vocab/empirical.m4a"
+  },
+  "emulate": {
+   "file": "assets/audio/vocab/emulate.m4a"
+  },
+  "enervate": {
+   "file": "assets/audio/vocab/enervate.m4a"
+  },
+  "enigma": {
+   "file": "assets/audio/vocab/enigma.m4a"
+  },
+  "ephemeral": {
+   "file": "assets/audio/vocab/ephemeral.m4a"
+  },
+  "equivocal": {
+   "file": "assets/audio/vocab/equivocal.m4a"
+  },
+  "erudite": {
+   "file": "assets/audio/vocab/erudite.m4a"
+  },
+  "esoteric": {
+   "file": "assets/audio/vocab/esoteric.m4a"
+  },
+  "expedite": {
+   "file": "assets/audio/vocab/expedite.m4a"
+  },
+  "erroneously": {
+   "file": "assets/audio/vocab/erroneously.m4a"
+  },
+  "facilitate": {
+   "file": "assets/audio/vocab/facilitate.m4a"
+  },
+  "fallacy": {
+   "file": "assets/audio/vocab/fallacy.m4a"
+  },
+  "fastidious": {
+   "file": "assets/audio/vocab/fastidious.m4a"
+  },
+  "fathom": {
+   "file": "assets/audio/vocab/fathom.m4a"
+  },
+  "feign": {
+   "file": "assets/audio/vocab/feign.m4a"
+  },
+  "flagrant": {
+   "file": "assets/audio/vocab/flagrant.m4a"
+  },
+  "flout": {
+   "file": "assets/audio/vocab/flout.m4a"
+  },
+  "fortuitous": {
+   "file": "assets/audio/vocab/fortuitous.m4a"
+  },
+  "furtively": {
+   "file": "assets/audio/vocab/furtively.m4a"
+  },
+  "futile": {
+   "file": "assets/audio/vocab/futile.m4a"
+  },
+  "garrulous": {
+   "file": "assets/audio/vocab/garrulous.m4a"
+  },
+  "germane": {
+   "file": "assets/audio/vocab/germane.m4a"
+  },
+  "grandiose": {
+   "file": "assets/audio/vocab/grandiose.m4a"
+  },
+  "guile": {
+   "file": "assets/audio/vocab/guile.m4a"
+  },
+  "guileless": {
+   "file": "assets/audio/vocab/guileless.m4a"
+  },
+  "hackneyed": {
+   "file": "assets/audio/vocab/hackneyed.m4a"
+  },
+  "heterogeneous": {
+   "file": "assets/audio/vocab/heterogeneous.m4a"
+  },
+  "hubris": {
+   "file": "assets/audio/vocab/hubris.m4a"
+  },
+  "innocuous": {
+   "file": "assets/audio/vocab/innocuous.m4a"
+  },
+  "hyperbole": {
+   "file": "assets/audio/vocab/hyperbole.m4a"
+  },
+  "iconoclast": {
+   "file": "assets/audio/vocab/iconoclast.m4a"
+  },
+  "idyllic": {
+   "file": "assets/audio/vocab/idyllic.m4a"
+  },
+  "ignominious": {
+   "file": "assets/audio/vocab/ignominious.m4a"
+  },
+  "juxtapose": {
+   "file": "assets/audio/vocab/juxtapose.m4a"
+  },
+  "haphazard": {
+   "file": "assets/audio/vocab/haphazard.m4a"
+  },
+  "harbinger": {
+   "file": "assets/audio/vocab/harbinger.m4a"
+  },
+  "heresy": {
+   "file": "assets/audio/vocab/heresy.m4a"
+  },
+  "henceforth": {
+   "file": "assets/audio/vocab/henceforth.m4a"
+  },
+  "hiatus": {
+   "file": "assets/audio/vocab/hiatus.m4a"
+  },
+  "homogeneous": {
+   "file": "assets/audio/vocab/homogeneous.m4a"
+  },
+  "homily": {
+   "file": "assets/audio/vocab/homily.m4a"
+  },
+  "humility": {
+   "file": "assets/audio/vocab/humility.m4a"
+  },
+  "hypothetical": {
+   "file": "assets/audio/vocab/hypothetical.m4a"
+  },
+  "idiosyncratic": {
+   "file": "assets/audio/vocab/idiosyncratic.m4a"
+  },
+  "illicit": {
+   "file": "assets/audio/vocab/illicit.m4a"
+  },
+  "immutable": {
+   "file": "assets/audio/vocab/immutable.m4a"
+  },
+  "impetuous": {
+   "file": "assets/audio/vocab/impetuous.m4a"
+  },
+  "implacable": {
+   "file": "assets/audio/vocab/implacable.m4a"
+  },
+  "increment": {
+   "file": "assets/audio/vocab/increment.m4a"
+  },
+  "inane": {
+   "file": "assets/audio/vocab/inane.m4a"
+  },
+  "indolent": {
+   "file": "assets/audio/vocab/indolent.m4a"
+  },
+  "imminent": {
+   "file": "assets/audio/vocab/imminent.m4a"
+  },
+  "impartial": {
+   "file": "assets/audio/vocab/impartial.m4a"
+  },
+  "impervious": {
+   "file": "assets/audio/vocab/impervious.m4a"
+  },
+  "impinge": {
+   "file": "assets/audio/vocab/impinge.m4a"
+  },
+  "impasse": {
+   "file": "assets/audio/vocab/impasse.m4a"
+  },
+  "impromptu": {
+   "file": "assets/audio/vocab/impromptu.m4a"
+  },
+  "inadvertently": {
+   "file": "assets/audio/vocab/inadvertently.m4a"
+  },
+  "implicitly": {
+   "file": "assets/audio/vocab/implicitly.m4a"
+  },
+  "inordinate": {
+   "file": "assets/audio/vocab/inordinate.m4a"
+  },
+  "inexorable": {
+   "file": "assets/audio/vocab/inexorable.m4a"
+  },
+  "infinitesimal": {
+   "file": "assets/audio/vocab/infinitesimal.m4a"
+  },
+  "ingrained": {
+   "file": "assets/audio/vocab/ingrained.m4a"
+  },
+  "ingratiate": {
+   "file": "assets/audio/vocab/ingratiate.m4a"
+  },
+  "inimical": {
+   "file": "assets/audio/vocab/inimical.m4a"
+  },
+  "insipid": {
+   "file": "assets/audio/vocab/insipid.m4a"
+  },
+  "intransigent": {
+   "file": "assets/audio/vocab/intransigent.m4a"
+  },
+  "intrepid": {
+   "file": "assets/audio/vocab/intrepid.m4a"
+  },
+  "irascible": {
+   "file": "assets/audio/vocab/irascible.m4a"
+  },
+  "jargon": {
+   "file": "assets/audio/vocab/jargon.m4a"
+  },
+  "jeopardy": {
+   "file": "assets/audio/vocab/jeopardy.m4a"
+  },
+  "jubilant": {
+   "file": "assets/audio/vocab/jubilant.m4a"
+  },
+  "judicious": {
+   "file": "assets/audio/vocab/judicious.m4a"
+  },
+  "judiciously": {
+   "file": "assets/audio/vocab/judiciously.m4a"
+  },
+  "jettison": {
+   "file": "assets/audio/vocab/jettison.m4a"
+  },
+  "justifiably": {
+   "file": "assets/audio/vocab/justifiably.m4a"
+  },
+  "knack": {
+   "file": "assets/audio/vocab/knack.m4a"
+  },
+  "kindle": {
+   "file": "assets/audio/vocab/kindle.m4a"
+  },
+  "kinship": {
+   "file": "assets/audio/vocab/kinship.m4a"
+  },
+  "latent": {
+   "file": "assets/audio/vocab/latent.m4a"
+  },
+  "lethargic": {
+   "file": "assets/audio/vocab/lethargic.m4a"
+  },
+  "levity": {
+   "file": "assets/audio/vocab/levity.m4a"
+  },
+  "liaison": {
+   "file": "assets/audio/vocab/liaison.m4a"
+  },
+  "legitimately": {
+   "file": "assets/audio/vocab/legitimately.m4a"
+  },
+  "lucid": {
+   "file": "assets/audio/vocab/lucid.m4a"
+  },
+  "lucrative": {
+   "file": "assets/audio/vocab/lucrative.m4a"
+  },
+  "lucidly": {
+   "file": "assets/audio/vocab/lucidly.m4a"
+  },
+  "luminary": {
+   "file": "assets/audio/vocab/luminary.m4a"
+  },
+  "luxuriant": {
+   "file": "assets/audio/vocab/luxuriant.m4a"
+  },
+  "carry out": {
+   "file": "assets/audio/vocab/carry-out.m4a"
+  },
+  "bring about": {
+   "file": "assets/audio/vocab/bring-about.m4a"
+  },
+  "call off": {
+   "file": "assets/audio/vocab/call-off.m4a"
+  },
+  "carry on": {
+   "file": "assets/audio/vocab/carry-on.m4a"
+  },
+  "put off": {
+   "file": "assets/audio/vocab/put-off.m4a"
+  },
+  "get away with": {
+   "file": "assets/audio/vocab/get-away-with.m4a"
+  },
+  "bring up": {
+   "file": "assets/audio/vocab/bring-up.m4a"
+  },
+  "figure out": {
+   "file": "assets/audio/vocab/figure-out.m4a"
+  },
+  "look into": {
+   "file": "assets/audio/vocab/look-into.m4a"
+  },
+  "turn down": {
+   "file": "assets/audio/vocab/turn-down.m4a"
+  },
+  "set up": {
+   "file": "assets/audio/vocab/set-up.m4a"
+  },
+  "take up": {
+   "file": "assets/audio/vocab/take-up.m4a"
+  },
+  "come up with": {
+   "file": "assets/audio/vocab/come-up-with.m4a"
+  },
+  "go through": {
+   "file": "assets/audio/vocab/go-through.m4a"
+  },
+  "hold on": {
+   "file": "assets/audio/vocab/hold-on.m4a"
+  },
+  "stand out": {
+   "file": "assets/audio/vocab/stand-out.m4a"
+  },
+  "rule out": {
+   "file": "assets/audio/vocab/rule-out.m4a"
+  },
+  "turn out": {
+   "file": "assets/audio/vocab/turn-out.m4a"
+  },
+  "let down": {
+   "file": "assets/audio/vocab/let-down.m4a"
+  },
+  "point out": {
+   "file": "assets/audio/vocab/point-out.m4a"
+  },
+  "put up with": {
+   "file": "assets/audio/vocab/put-up-with.m4a"
+  },
+  "make up for": {
+   "file": "assets/audio/vocab/make-up-for.m4a"
+  },
+  "sort out": {
+   "file": "assets/audio/vocab/sort-out.m4a"
+  },
+  "count on": {
+   "file": "assets/audio/vocab/count-on.m4a"
+  },
+  "get along with": {
+   "file": "assets/audio/vocab/get-along-with.m4a"
+  },
+  "run out of": {
+   "file": "assets/audio/vocab/run-out-of.m4a"
+  },
+  "break down": {
+   "file": "assets/audio/vocab/break-down.m4a"
+  },
+  "take over": {
+   "file": "assets/audio/vocab/take-over.m4a"
+  },
+  "put forward": {
+   "file": "assets/audio/vocab/put-forward.m4a"
+  },
+  "turn into": {
+   "file": "assets/audio/vocab/turn-into.m4a"
+  },
+  "get over": {
+   "file": "assets/audio/vocab/get-over.m4a"
+  },
+  "back up": {
+   "file": "assets/audio/vocab/back-up.m4a"
+  },
+  "hand in": {
+   "file": "assets/audio/vocab/hand-in.m4a"
+  },
+  "drop out": {
+   "file": "assets/audio/vocab/drop-out.m4a"
+  },
+  "look forward to": {
+   "file": "assets/audio/vocab/look-forward-to.m4a"
+  },
+  "in charge of": {
+   "file": "assets/audio/vocab/in-charge-of.m4a"
+  },
+  "at the expense of": {
+   "file": "assets/audio/vocab/at-the-expense-of.m4a"
+  },
+  "by no means": {
+   "file": "assets/audio/vocab/by-no-means.m4a"
+  },
+  "take advantage of": {
+   "file": "assets/audio/vocab/take-advantage-of.m4a"
+  },
+  "account for": {
+   "file": "assets/audio/vocab/account-for.m4a"
+  },
+  "set off": {
+   "file": "assets/audio/vocab/set-off.m4a"
+  },
+  "give in": {
+   "file": "assets/audio/vocab/give-in.m4a"
+  },
+  "look up to": {
+   "file": "assets/audio/vocab/look-up-to.m4a"
+  },
+  "stand for": {
+   "file": "assets/audio/vocab/stand-for.m4a"
+  },
+  "get used to": {
+   "file": "assets/audio/vocab/get-used-to.m4a"
+  },
+  "break into": {
+   "file": "assets/audio/vocab/break-into.m4a"
+  },
+  "keep up with": {
+   "file": "assets/audio/vocab/keep-up-with.m4a"
+  },
+  "turn in": {
+   "file": "assets/audio/vocab/turn-in.m4a"
+  },
+  "set aside": {
+   "file": "assets/audio/vocab/set-aside.m4a"
+  },
+  "get across": {
+   "file": "assets/audio/vocab/get-across.m4a"
+  },
+  "work out": {
+   "file": "assets/audio/vocab/work-out.m4a"
+  },
+  "bring down": {
+   "file": "assets/audio/vocab/bring-down.m4a"
+  },
+  "get to the point": {
+   "file": "assets/audio/vocab/get-to-the-point.m4a"
+  },
+  "get rid of": {
+   "file": "assets/audio/vocab/get-rid-of.m4a"
+  },
+  "in the long run": {
+   "file": "assets/audio/vocab/in-the-long-run.m4a"
+  },
+  "at stake": {
+   "file": "assets/audio/vocab/at-stake.m4a"
+  },
+  "now and then": {
+   "file": "assets/audio/vocab/now-and-then.m4a"
+  },
+  "on second thought": {
+   "file": "assets/audio/vocab/on-second-thought.m4a"
+  },
+  "take for granted": {
+   "file": "assets/audio/vocab/take-for-granted.m4a"
+  },
+  "on the whole": {
+   "file": "assets/audio/vocab/on-the-whole.m4a"
+  },
+  "call for": {
+   "file": "assets/audio/vocab/call-for.m4a"
+  },
+  "check out": {
+   "file": "assets/audio/vocab/check-out.m4a"
+  },
+  "come across": {
+   "file": "assets/audio/vocab/come-across.m4a"
+  },
+  "pay off": {
+   "file": "assets/audio/vocab/pay-off.m4a"
+  },
+  "hang on to": {
+   "file": "assets/audio/vocab/hang-on-to.m4a"
+  },
+  "catch up with": {
+   "file": "assets/audio/vocab/catch-up-with.m4a"
+  },
+  "bring in": {
+   "file": "assets/audio/vocab/bring-in.m4a"
+  },
+  "get away": {
+   "file": "assets/audio/vocab/get-away.m4a"
+  },
+  "in terms of": {
+   "file": "assets/audio/vocab/in-terms-of.m4a"
+  },
+  "under control": {
+   "file": "assets/audio/vocab/under-control.m4a"
+  },
+  "as a rule": {
+   "file": "assets/audio/vocab/as-a-rule.m4a"
+  },
+  "by and large": {
+   "file": "assets/audio/vocab/by-and-large.m4a"
+  },
+  "turn off": {
+   "file": "assets/audio/vocab/turn-off.m4a"
+  },
+  "iron out": {
+   "file": "assets/audio/vocab/iron-out.m4a"
+  },
+  "on the increase": {
+   "file": "assets/audio/vocab/on-the-increase.m4a"
+  },
+  "take in": {
+   "file": "assets/audio/vocab/take-in.m4a"
+  },
+  "do without": {
+   "file": "assets/audio/vocab/do-without.m4a"
+  },
+  "in vain": {
+   "file": "assets/audio/vocab/in-vain.m4a"
+  },
+  "bring out": {
+   "file": "assets/audio/vocab/bring-out.m4a"
+  },
+  "in the wake of": {
+   "file": "assets/audio/vocab/in-the-wake-of.m4a"
+  },
+  "magnitude": {
+   "file": "assets/audio/vocab/magnitude.m4a"
+  },
+  "malfunction": {
+   "file": "assets/audio/vocab/malfunction.m4a"
+  },
+  "mandatory": {
+   "file": "assets/audio/vocab/mandatory.m4a"
+  },
+  "manifest": {
+   "file": "assets/audio/vocab/manifest.m4a"
+  },
+  "manipulate": {
+   "file": "assets/audio/vocab/manipulate.m4a"
+  },
+  "marginal": {
+   "file": "assets/audio/vocab/marginal.m4a"
+  },
+  "mediate": {
+   "file": "assets/audio/vocab/mediate.m4a"
+  },
+  "meticulous": {
+   "file": "assets/audio/vocab/meticulous.m4a"
+  },
+  "mitigate": {
+   "file": "assets/audio/vocab/mitigate.m4a"
+  },
+  "misconception": {
+   "file": "assets/audio/vocab/misconception.m4a"
+  },
+  "momentum": {
+   "file": "assets/audio/vocab/momentum.m4a"
+  },
+  "multitude": {
+   "file": "assets/audio/vocab/multitude.m4a"
+  },
+  "mundane": {
+   "file": "assets/audio/vocab/mundane.m4a"
+  },
+  "multifaceted": {
+   "file": "assets/audio/vocab/multifaceted.m4a"
+  },
+  "mutate": {
+   "file": "assets/audio/vocab/mutate.m4a"
+  },
+  "myriad": {
+   "file": "assets/audio/vocab/myriad.m4a"
+  },
+  "negate": {
+   "file": "assets/audio/vocab/negate.m4a"
+  },
+  "nebulous": {
+   "file": "assets/audio/vocab/nebulous.m4a"
+  },
+  "negligent": {
+   "file": "assets/audio/vocab/negligent.m4a"
+  },
+  "negligible": {
+   "file": "assets/audio/vocab/negligible.m4a"
+  },
+  "nominal": {
+   "file": "assets/audio/vocab/nominal.m4a"
+  },
+  "notion": {
+   "file": "assets/audio/vocab/notion.m4a"
+  },
+  "notable": {
+   "file": "assets/audio/vocab/notable.m4a"
+  },
+  "nucleus": {
+   "file": "assets/audio/vocab/nucleus.m4a"
+  },
+  "notorious": {
+   "file": "assets/audio/vocab/notorious.m4a"
+  },
+  "nonchalant": {
+   "file": "assets/audio/vocab/nonchalant.m4a"
+  },
+  "obscure": {
+   "file": "assets/audio/vocab/obscure.m4a"
+  },
+  "ostracize": {
+   "file": "assets/audio/vocab/ostracize.m4a"
+  },
+  "offset": {
+   "file": "assets/audio/vocab/offset.m4a"
+  },
+  "onerous": {
+   "file": "assets/audio/vocab/onerous.m4a"
+  },
+  "optimal": {
+   "file": "assets/audio/vocab/optimal.m4a"
+  },
+  "onset": {
+   "file": "assets/audio/vocab/onset.m4a"
+  },
+  "outset": {
+   "file": "assets/audio/vocab/outset.m4a"
+  },
+  "oversight": {
+   "file": "assets/audio/vocab/oversight.m4a"
+  },
+  "overstate": {
+   "file": "assets/audio/vocab/overstate.m4a"
+  },
+  "omission": {
+   "file": "assets/audio/vocab/omission.m4a"
+  },
+  "outweigh": {
+   "file": "assets/audio/vocab/outweigh.m4a"
+  },
+  "override": {
+   "file": "assets/audio/vocab/override.m4a"
+  },
+  "opaque": {
+   "file": "assets/audio/vocab/opaque.m4a"
+  },
+  "oblivious": {
+   "file": "assets/audio/vocab/oblivious.m4a"
+  },
+  "ostensibly": {
+   "file": "assets/audio/vocab/ostensibly.m4a"
+  },
+  "paradigm": {
+   "file": "assets/audio/vocab/paradigm.m4a"
+  },
+  "parameter": {
+   "file": "assets/audio/vocab/parameter.m4a"
+  },
+  "plausible": {
+   "file": "assets/audio/vocab/plausible.m4a"
+  },
+  "precarious": {
+   "file": "assets/audio/vocab/precarious.m4a"
+  },
+  "precedent": {
+   "file": "assets/audio/vocab/precedent.m4a"
+  },
+  "predominant": {
+   "file": "assets/audio/vocab/predominant.m4a"
+  },
+  "prevail": {
+   "file": "assets/audio/vocab/prevail.m4a"
+  },
+  "proficient": {
+   "file": "assets/audio/vocab/proficient.m4a"
+  },
+  "proliferation": {
+   "file": "assets/audio/vocab/proliferation.m4a"
+  },
+  "pragmatic": {
+   "file": "assets/audio/vocab/pragmatic.m4a"
+  },
+  "profound": {
+   "file": "assets/audio/vocab/profound.m4a"
+  },
+  "pristine": {
+   "file": "assets/audio/vocab/pristine.m4a"
+  },
+  "proponent": {
+   "file": "assets/audio/vocab/proponent.m4a"
+  },
+  "pitfall": {
+   "file": "assets/audio/vocab/pitfall.m4a"
+  },
+  "quantify": {
+   "file": "assets/audio/vocab/quantify.m4a"
+  },
+  "quota": {
+   "file": "assets/audio/vocab/quota.m4a"
+  },
+  "quirky": {
+   "file": "assets/audio/vocab/quirky.m4a"
+  },
+  "rampant": {
+   "file": "assets/audio/vocab/rampant.m4a"
+  },
+  "ratify": {
+   "file": "assets/audio/vocab/ratify.m4a"
+  },
+  "redundant": {
+   "file": "assets/audio/vocab/redundant.m4a"
+  },
+  "refute": {
+   "file": "assets/audio/vocab/refute.m4a"
+  },
+  "reinforce": {
+   "file": "assets/audio/vocab/reinforce.m4a"
+  },
+  "relinquish": {
+   "file": "assets/audio/vocab/relinquish.m4a"
+  },
+  "resilient": {
+   "file": "assets/audio/vocab/resilient.m4a"
+  },
+  "restrain": {
+   "file": "assets/audio/vocab/restrain.m4a"
+  },
+  "retrospect": {
+   "file": "assets/audio/vocab/retrospect.m4a"
+  },
+  "rigorous": {
+   "file": "assets/audio/vocab/rigorous.m4a"
+  },
+  "robust": {
+   "file": "assets/audio/vocab/robust.m4a"
+  },
+  "ruthless": {
+   "file": "assets/audio/vocab/ruthless.m4a"
+  },
+  "resonate": {
+   "file": "assets/audio/vocab/resonate.m4a"
+  },
+  "rectify": {
+   "file": "assets/audio/vocab/rectify.m4a"
+  },
+  "salient": {
+   "file": "assets/audio/vocab/salient.m4a"
+  },
+  "saturate": {
+   "file": "assets/audio/vocab/saturate.m4a"
+  },
+  "scrutiny": {
+   "file": "assets/audio/vocab/scrutiny.m4a"
+  },
+  "seamless": {
+   "file": "assets/audio/vocab/seamless.m4a"
+  },
+  "skeptical": {
+   "file": "assets/audio/vocab/skeptical.m4a"
+  },
+  "sluggish": {
+   "file": "assets/audio/vocab/sluggish.m4a"
+  },
+  "speculate": {
+   "file": "assets/audio/vocab/speculate.m4a"
+  },
+  "stagnate": {
+   "file": "assets/audio/vocab/stagnate.m4a"
+  },
+  "subsidize": {
+   "file": "assets/audio/vocab/subsidize.m4a"
+  },
+  "superficial": {
+   "file": "assets/audio/vocab/superficial.m4a"
+  },
+  "surpass": {
+   "file": "assets/audio/vocab/surpass.m4a"
+  },
+  "sustain": {
+   "file": "assets/audio/vocab/sustain.m4a"
+  },
+  "subsequent": {
+   "file": "assets/audio/vocab/subsequent.m4a"
+  },
+  "subtlety": {
+   "file": "assets/audio/vocab/subtlety.m4a"
+  },
+  "stipulate": {
+   "file": "assets/audio/vocab/stipulate.m4a"
+  },
+  "tangible": {
+   "file": "assets/audio/vocab/tangible.m4a"
+  },
+  "tedious": {
+   "file": "assets/audio/vocab/tedious.m4a"
+  },
+  "tenacious": {
+   "file": "assets/audio/vocab/tenacious.m4a"
+  },
+  "tentative": {
+   "file": "assets/audio/vocab/tentative.m4a"
+  },
+  "terminate": {
+   "file": "assets/audio/vocab/terminate.m4a"
+  },
+  "threshold": {
+   "file": "assets/audio/vocab/threshold.m4a"
+  },
+  "thrive": {
+   "file": "assets/audio/vocab/thrive.m4a"
+  },
+  "transcend": {
+   "file": "assets/audio/vocab/transcend.m4a"
+  },
+  "transient": {
+   "file": "assets/audio/vocab/transient.m4a"
+  },
+  "thwart": {
+   "file": "assets/audio/vocab/thwart.m4a"
+  },
+  "turmoil": {
+   "file": "assets/audio/vocab/turmoil.m4a"
+  },
+  "terse": {
+   "file": "assets/audio/vocab/terse.m4a"
+  },
+  "ubiquitous": {
+   "file": "assets/audio/vocab/ubiquitous.m4a"
+  },
+  "unanimous": {
+   "file": "assets/audio/vocab/unanimous.m4a"
+  },
+  "unprecedented": {
+   "file": "assets/audio/vocab/unprecedented.m4a"
+  },
+  "upheaval": {
+   "file": "assets/audio/vocab/upheaval.m4a"
+  },
+  "usurp": {
+   "file": "assets/audio/vocab/usurp.m4a"
+  },
+  "uphold": {
+   "file": "assets/audio/vocab/uphold.m4a"
+  },
+  "viable": {
+   "file": "assets/audio/vocab/viable.m4a"
+  },
+  "vindicate": {
+   "file": "assets/audio/vocab/vindicate.m4a"
+  },
+  "volatile": {
+   "file": "assets/audio/vocab/volatile.m4a"
+  },
+  "vulnerable": {
+   "file": "assets/audio/vocab/vulnerable.m4a"
+  },
+  "versatile": {
+   "file": "assets/audio/vocab/versatile.m4a"
+  },
+  "warrant": {
+   "file": "assets/audio/vocab/warrant.m4a"
+  },
+  "wary": {
+   "file": "assets/audio/vocab/wary.m4a"
+  },
+  "withstand": {
+   "file": "assets/audio/vocab/withstand.m4a"
+  },
+  "whimsical": {
+   "file": "assets/audio/vocab/whimsical.m4a"
+  },
+  "worthwhile": {
+   "file": "assets/audio/vocab/worthwhile.m4a"
+  },
+  "whereby": {
+   "file": "assets/audio/vocab/whereby.m4a"
+  },
+  "yield": {
+   "file": "assets/audio/vocab/yield.m4a"
+  },
+  "yearning": {
+   "file": "assets/audio/vocab/yearning.m4a"
+  },
+  "zenith": {
+   "file": "assets/audio/vocab/zenith.m4a"
+  },
+  "zest": {
+   "file": "assets/audio/vocab/zest.m4a"
+  }
+ },
+ "voices": {
+  "en": "Kokoro af_heart / am_michael",
+  "enEngine": "Kokoro-82M v1.0 (Apache-2.0, offline)",
+  "enRate": 0.95,
+  "sampleRate": 24000,
+  "bitrate": 64000
+ }
+}

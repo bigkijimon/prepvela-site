@@ -1,0 +1,96 @@
+# hosting/cloudflare/_headers — the response headers Cloudflare Pages sends with
+# dist/site/. tools/make_site.sh copies this file to dist/site/_headers verbatim
+# and refuses to leave a package behind if a Content-Security-Policy here is not
+# the one dist/site/app/index.html declares, or if a page of the package comes
+# away without the Cache-Control below; tools/verify_hosting.py asks a live
+# address for these same headers and compares them against the same page.
+#
+# The format has no variables and no "every page of this kind" rule, so the
+# policy is written out once per rule that needs it. That repetition is exactly
+# why the build checks it instead of trusting it: five copies of one policy is
+# five chances to type a character wrong, and a policy that differs from the
+# app's own is a page weaker than the app it links to.
+#
+# No rule below names the same header twice for one path, so the order of the
+# rules cannot change the answer:
+#
+#   /*                   four headers that must reach every response
+#   /app/                the app's own page, requested as the directory: five
+#                        minutes, then revalidate, same as /app/*.html below
+#   /app/*               the app's policy
+#   /app/assets/audio/*  the clips: a year, immutable, audio/mp4
+#   /app/*.html          the app's page, requested by name: five minutes,
+#                        then revalidate
+#   /  /start/  /privacy/  /404.html
+#                        a public page: the same policy, five minutes
+#
+# /app/ and /app/*.html carry the same two headers because a host serves the
+# same file for both requests, and this file has no "equivalent path" rule —
+# only the literal request path the glob is asked to match. A build that
+# shipped a visitor's plain /app/ with the wildcard's bare CSP and no
+# Cache-Control would not be wrong about the policy, only about how long the
+# page may be cached, and the check below cannot tell those apart from the
+# page's own correctness unless both rules name the path a request actually
+# arrives on.
+#
+# One rule per public address is a list this file keeps, so the build refuses
+# rather than shipping a page with no Cache-Control. Add the address here when
+# site/ gains a page; tools/make_site.sh names the one that was missed. If a
+# platform will not read a wildcard that is not a whole path segment, write the
+# app's page as `/app/index.html` — the build asks which pages are covered, not
+# which patterns were used, so either spelling passes it.
+
+# Every path, every response. Four headers with no page of their own to carry
+# them, because the page that forgets one is the page a stranger opens.
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()
+  X-Frame-Options: DENY
+
+# The app, requested as the directory a link to it actually uses (../app/ from
+# site/start/index.html resolves here). Same policy and cache rule as
+# /app/*.html below, because a host that serves index.html for this request is
+# serving the same bytes under a different path.
+/app/
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'
+  Cache-Control: public, max-age=300, must-revalidate
+
+# The app. Its policy is index.html's, character for character: a page that
+# loads nothing but its own files has no reason to be allowed to load anything
+# else, and connect-src 'none' is the line that makes the app offline by
+# construction rather than by habit.
+/app/*
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'
+
+# The clips. They never change under an address — the file name is the word — so
+# a year is honest, and immutable tells the browser not to ask again. The
+# content type is written because the extension says "MPEG-4 audio" to a machine
+# and nothing at all to a browser left to guess.
+/app/assets/audio/*
+  Cache-Control: public, max-age=31536000, immutable
+  Content-Type: audio/mp4
+
+# The app's own page, at the same five minutes as the public pages: it is one
+# HTML file a person may be mid-lesson on when a new build lands.
+/app/*.html
+  Cache-Control: public, max-age=300, must-revalidate
+
+# The public pages carry the app's policy too, for the reason the privacy page
+# states in its own words: a page a stranger opens must not be able to reach
+# anywhere either.
+/start/
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'
+  Cache-Control: public, max-age=300, must-revalidate
+
+/privacy/
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'
+  Cache-Control: public, max-age=300, must-revalidate
+
+/404.html
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'
+  Cache-Control: public, max-age=300, must-revalidate
+
+/
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'
+  Cache-Control: public, max-age=300, must-revalidate

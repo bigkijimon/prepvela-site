@@ -1,6 +1,6 @@
 # Prepvela build record. Written at build time by tools/write_version.py;
 # edit release/release.json or the tree, never this file.
 version: 1.0.0
-git commit: d4d3820
-built: 2026-10-06T07:14:36+09:00
+git commit: 1528dda
+built: 2026-10-06T09:14:14+09:00
 data/bank.js sha256: a66ed5df67c452ce45e6cb56eccfd7becff22789b8c8f94ddcdfee36f49641c7
